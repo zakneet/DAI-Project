@@ -15,3 +15,13 @@ Diagrammes inclus :
 - Modeling (M) : représentation formelle des scénarios.
 - Architecture (A) : servira à définir les composants techniques.
 - Delivery (D) : base du backlog et du développement.
+
+## Use Case Diagram — Description
+
+Ce diagramme présente les interactions principales entre les acteurs (patient, anesthésiste, IADE, SSPI, IT, dispositifs, SIH) et le système DAI.
+
+Il couvre :
+- Pré-opératoire (questionnaire, validation)
+- Per-opératoire (suivi temps réel, constantes)
+- Post-opératoire (SSPI, score sortie)
+- Administration & intégration SIH
