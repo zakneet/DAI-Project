@@ -25,3 +25,18 @@ Il couvre :
 - Per-opératoire (suivi temps réel, constantes)
 - Post-opératoire (SSPI, score sortie)
 - Administration & intégration SIH
+
+## Sequence Diagram — Pré-opératoire
+
+Ce diagramme décrit le flux complet du questionnaire pré-opératoire :
+
+1. Le patient complète le questionnaire.
+2. Le backend transmet les données au module IA.
+3. Les scores sont calculés automatiquement.
+4. Les résultats sont sauvegardés.
+5. L’anesthésiste valide ou corrige les informations.
+
+Exigences couvertes :
+- EF-05 à EF-09
+- NFR-01 (authentification)
+- NFR-04 (traçabilité)
