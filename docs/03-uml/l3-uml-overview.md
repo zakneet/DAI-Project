@@ -50,3 +50,26 @@ Exigences couvertes :
 - EF-05 à EF-09
 - NFR-01 (authentification)
 - NFR-04 (traçabilité)
+
+## Sequence Diagram — Per-opératoire (Bloc)
+
+Ce diagramme modélise le fonctionnement en bloc opératoire :
+- Démarrage d’une session per-op.
+- Réception continue des constantes via passerelle dispositifs.
+- Détection d’anomalies et génération d’alertes (ACTIVE → ACK).
+- Saisie d’événements (médicaments/incidents).
+- Résilience en cas de perte de flux dispositif.
+- Clôture de segment per-op.
+
+Exigences couvertes : EF-10 à EF-14, NFR-06, NFR-07, NFR-04. 
+
+## Class Diagram — Modèle métier
+
+Ce diagramme décrit les principales entités du domaine :
+Patient, dossier anesthésie (AnesthesiaCase), questionnaire pré-op, scores, session per-op, constantes vitales, événements, alertes, séjour SSPI, rapport anesthésie, utilisateurs et audit.
+
+Il sert de base pour :
+- conception BD
+- API backend
+- architecture (L4)
+- traçabilité EF/NFR
