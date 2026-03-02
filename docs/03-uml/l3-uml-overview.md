@@ -16,6 +16,16 @@ Diagrammes inclus :
 - Architecture (A) : servira à définir les composants techniques.
 - Delivery (D) : base du backlog et du développement.
 
+## Diagrammes exportés
+
+Les versions SVG des diagrammes sont disponibles dans :
+
+diagrams/uml/exports/
+
+Les fichiers source PlantUML sont disponibles dans :
+
+diagrams/uml/source/ 
+
 ## Use Case Diagram — Description
 
 Ce diagramme présente les interactions principales entre les acteurs (patient, anesthésiste, IADE, SSPI, IT, dispositifs, SIH) et le système DAI.
