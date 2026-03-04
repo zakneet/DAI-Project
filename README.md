@@ -29,18 +29,18 @@ Le système vise à améliorer la sécurité, la traçabilité et la performance
 
 ## 🏥 Modules Principaux
 
-### 1️⃣ Pré-opératoire
+### 1️ Pré-opératoire
 - Questionnaire patient numérique
 - Calcul automatique des scores (ASA, RCRI, Apfel, Mallampati)
 - Aide à la décision médicale
 
-### 2️⃣ Per-opératoire
+### 2️ Per-opératoire
 - Suivi temps réel du patient au bloc
 - Intégration des constantes vitales
 - Enregistrement des actes et médicaments
 - Alertes intelligentes
 
-### 3️⃣ Post-opératoire
+### 3️ Post-opératoire
 - Suivi en SSPI
 - Calcul du score de sortie (Aldrete)
 - Génération du rapport anesthésique
@@ -56,5 +56,3 @@ Le système vise à améliorer la sécurité, la traçabilité et la performance
 - Interopérabilité standardisée
 
 ---
-
-## 🛠 Organisation du projet
