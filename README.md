@@ -56,3 +56,20 @@ Le système vise à améliorer la sécurité, la traçabilité et la performance
 - Interopérabilité standardisée
 
 ---
+<<<<<<< Updated upstream
+=======
+
+# UML Exports (SVG)
+
+Ce dossier contient les exports SVG des diagrammes UML du projet DAI.
+
+Sources PlantUML :
+- `diagrams/uml/source/`
+
+Exports :
+- `diagrams/exports/`
+
+Note : Les exports sont générés à partir des fichiers `.puml`. 
+
+
+>>>>>>> Stashed changes
