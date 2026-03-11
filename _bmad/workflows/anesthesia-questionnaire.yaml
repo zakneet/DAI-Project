@@ -1,0 +1,17 @@
+name: anesthesia-questionnaire
+
+description: Workflow for managing pre-anesthesia questionnaire processing
+
+steps:
+
+  - name: collect-questionnaire
+    description: collect questionnaire responses from patient
+
+  - name: validate-questionnaire
+    description: validate questionnaire answers by anesthesiologist
+
+  - name: compute-scores
+    description: compute anesthesia risk scores
+
+  - name: store-results
+    description: save questionnaire and scores to backend database
