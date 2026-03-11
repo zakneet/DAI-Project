@@ -116,3 +116,23 @@ Ce livrable servira de base :
 - à la mise en place du code,
 - au découpage du backlog,
 - aux décisions d’architecture détaillées (ADR).
+
+## 8. C4 — System Context Diagram
+
+Le diagramme de contexte présente le système DAI comme plateforme centrale du parcours anesthésique.
+
+### Acteurs internes
+- Patient
+- Anesthésiste
+- IADE
+- Équipe SSPI
+- Administrateur IT
+
+### Systèmes externes
+- SIH / DPI
+- Dispositifs biomédicaux
+- Services IA
+- Service d’authentification
+
+### Objectif
+Cette vue permet de situer DAI dans son environnement global avant de détailler les conteneurs techniques au niveau suivant.
