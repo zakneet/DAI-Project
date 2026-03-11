@@ -136,3 +136,22 @@ Le diagramme de contexte présente le système DAI comme plateforme centrale du 
 
 ### Objectif
 Cette vue permet de situer DAI dans son environnement global avant de détailler les conteneurs techniques au niveau suivant.
+
+## 9. C4 — Container Diagram
+
+Le diagramme de conteneurs décompose le système DAI en principaux blocs techniques.
+
+### Conteneurs internes
+- Frontend Web Angular
+- Backend API Spring Boot
+- Base de données PostgreSQL
+- Device Gateway
+
+### Services externes
+- SIH / DPI
+- Service IA
+- Service d’authentification
+- Dispositifs biomédicaux
+
+### Objectif
+Cette vue décrit l’architecture de haut niveau qui servira de base au développement, au déploiement et à la sécurité.
